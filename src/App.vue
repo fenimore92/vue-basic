@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='https://fenimore92.github.io/vue-basic/dist/logo.png')
     h1 PlatziMusic
     spinner(v-show="loading")
     select(v-model="selectedCountry")
